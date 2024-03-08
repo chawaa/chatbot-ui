@@ -29,7 +29,7 @@ module.exports = withBundleAnalyzer(
       serverActions: {
         allowedOrigins: [
           "https://chat.qxq.cc",
-          "https://supa.qxq.cc",
+          "http://47.115.227.14:8000",
         ]
       },
       serverComponentsExternalPackages: ["sharp", "onnxruntime-node"]
