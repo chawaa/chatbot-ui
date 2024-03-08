@@ -26,6 +26,12 @@ module.exports = withBundleAnalyzer(
       ]
     },
     experimental: {
+      serverActions: {
+        allowedOrigins: [
+          "https://chat.qxq.cc",
+          "https://supa.qxq.cc",
+        ]
+      },
       serverComponentsExternalPackages: ["sharp", "onnxruntime-node"]
     }
   })
